@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+ <html lang="ua">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="styles.css"/>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    
+</head>
+<body>
+   <div class="hero">
+
+    <div class="container hero__container">
+    
+    <div class="hero__about">
+     <h1 class="hero__title">
+        Аніщик Владислав 
+     </h1>
+     <header>
+     <ul>
+        
+          <li><a href="резюме en.html">eng</a></li>
+          
+        </ul>
+        </header>
+    <div class="hero__links">
+        <a class="hero__link" href="#">
+            <i class='bx bxl-facebook-square' ></i>
+            <a href="https://www.facebook.com/profile.php?id=100034265119488">facebook</a>
+        </a>   
+        <a class="hero__link" href="#">
+            <i class='bx bxl-instagram' ></i>
+            <a href="https://www.instagram.com/_kamayoshi_/">instagram</a>
+        </a>
+        <a class="hero__link" href="#">
+            <i class='bx bxl-pinterest' ></i>
+            <a href="https://www.pinterest.com/thuglifeinamerica/">pinterest</a>
+        </a>
+    </div> 
+    <div class="hero__box">
+        <img class="hero__box-img" src="c:\Users\thugl\OneDrive\Робочий стіл\11-removebg-preview.png" alt="резюме">
+    </div>
+     <p style="text-align: right;"> Вік: 20 років</p>
+     <p style="text-align: right;"> E-mail:
+    <a style="text-align: right;" href="mailto:mail@example.com">thug.life.in.america1108@gmail.com </a>
+     </p>
+     <p style="text-align: right;"> Контакти:
+    <a style="text-align: right;" href="tel:+380989213844"> +380989213844 </a>
+     </p>
+     <p style="text-align: right"> Громадянство: Українець</p>
+     <p style="text-align: right"> Мова: Українська рідна, Англійська(середній)</p>
+     <p style="text-align: right"> Освіта: середня(молодший спеціаліст з програмування)</p>
+
+
+    
+
+     <p class="hero__description">
+        Я Аніщик Владислав маю такі навички і 
+        уміння, як працювати з такими мовами програмування
+        Delphi, C++, Java script, ведення Баз Даних, їх створення, запис даних, тощо, робота з HTML (створення сайту 
+        і наповнення його контентом, робота з офісними застосунками, робота з відеоредакторами.)      
+    </p>  
+  
+    <script src ="c:\Users\thugl\OneDrive\Робочий стіл\css\script.js"></script>
+    <div>
+        <input type="date" id="start-date">   
+    </div>
+    <div>
+        <input type="date" id="end-date">   
+    </div>
+    <div>
+        <button>Показати</button>
+    </div>
+    <div id="out"></div>
+    
+
+   
+    
+
+
+
+
+   <div class="info-rightbox">
+    <!-- <a href="#"><img src="c:\Users\thugl\OneDrive\Робочий стіл\11.png" alt=""></a> -->
+    <canvas id="myChart" width="600px" height="300px"></canvas>
+   </div>
+
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js'></script>
+   <script>
+    let ctx = document.querySelector('#myChart').getContext('2d');
+    let myChartn=new Chart(ctx,{
+    type: 'bar',
+    data: {
+        labels:["Delphi","C++","Java script","HTML","Database"],
+        datasets:[{
+            label: 'Уміння і навички',
+            data:[35,32,23,25,30],
+            BackgroundColor:[
+                'white'
+            ],
+            BorderColor: [
+                '#80d8ff',
+                '#82b1ff',
+                '#b388ff',
+                '#80d8ff',
+                '#ea80fc',
+            ],
+            borderWidth: 4
+        }]
+    },
+    Options: {}
+    })
+   </script>
+   
+     
+    
+   
+   
+
+
+
+
+
+
+    </div> 
+   </div>
+   
+</body>
+ </html>
